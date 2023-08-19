@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js- Array of Objects</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+
+  <body>
+    <header>
+      <button class="questionButton" id="questionBTN1">Q.1</button>
+      <button class="questionButton" id="questionBTN2">Q.2</button>
+      <button class="questionButton" id="questionBTN3">Q.3</button>
+      <button class="questionButton" id="questionBTN4">Q.4</button>
+      <button class="questionButton" id="questionBTN5">Q.5</button>
+      <button class="questionButton" id="questionBTN6">Q.6</button>
+      <button class="questionButton" id="questionBTN7">Q.7</button>
+      <button class="questionButton" id="questionBTN8">Q.8</button>
+    </header>
+    <section class="MainContainer">
+
+      <div class="QuestionAnswereBox" id="QuestionBox1">
+        <h3 class="Question">
+          <span class="qNumber">Q1.</span> "We are interested in retrieving only
+          the students' names; all the names should be in caps. ['JOHN', 'BABA',
+          'YAGA', 'WICK']"
+        </h3>
+        <div class="RecordSnap">
+          <img
+            src="./Images/dataSetSnap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+          <img
+            src="./Images/Question1Snap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+        </div>
+        <div class="OutpuTBox">
+          <img src="./Images/Question1OutputSnap.png" alt="" class="outPutSnap">
+        </div>
+      </div>
+
+      <div class="QuestionAnswereBox UnactiveQuestion" id="QuestionBox2">
+        <h3 class="Question">
+          <span class="qNumber">Q2.</span>"Suppose we have the same dataset as
+          above but this time we want to get the details of students who scored
+          more than 50 marks. [{name: 'John', id: 123, marks: 98 },{name:
+          'Wick', id: 115, marks: 75 }]"
+        </h3>
+        <div class="RecordSnap">
+          <img
+            src="./Images/dataSetSnap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+          <img
+            src="./Images/Question2Snap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+        </div>
+        <div class="OutpuTBox">
+          <img src="./Images/Question2OutputSnap.png" alt="" class="outPutSnap">
+        </div>
+      </div>
+
+      <div class="QuestionAnswereBox UnactiveQuestion" id="QuestionBox3">
+        <h3 class="Question">
+          <span class="qNumber">Q3.</span> "Retrieve the details of students who
+          scored more than 50 marks and have IDs greater than 120."
+        </h3>
+        <div class="RecordSnap">
+          <img
+            src="./Images/dataSetSnap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+          <img
+            src="./Images/Question3Snap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+        </div>
+        <div class="OutpuTBox">
+          <img src="./Images/Question3OutputSnap.png" alt="" class="outPutSnap">
+        </div>
+      </div>
+
+      <div class="QuestionAnswereBox UnactiveQuestion" id="QuestionBox4">
+        <h3 class="Question">
+          <span class="qNumber">Q4.</span> "Consider the same scenario we have
+          discussed above, but this time we would like to know the sum total of
+          the marks of the students."
+        </h3>
+        <div class="RecordSnap">
+          <img
+            src="./Images/dataSetSnap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+          <img
+            src="./Images/Question4Snap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+        </div>
+        <div class="OutpuTBox">
+          <img src="./Images/Question4OutputSnap.png" alt="" class="outPutSnap">
+        </div>
+      </div>
+
+      <div class="QuestionAnswereBox UnactiveQuestion" id="QuestionBox5">
+        <h3 class="Question">
+          <span class="qNumber">Q5.</span> "This time we want to get only the
+          names of the students who scored more than 50 marks from the same
+          dataset used above."
+        </h3>
+        <div class="RecordSnap">
+          <img
+            src="./Images/dataSetSnap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+          <img
+            src="./Images/Question5Snap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+        </div>
+        <div class="OutpuTBox">
+          <img src="./Images/Question5OutputSnap.png" alt="" class="outPutSnap">
+        </div>
+      </div>
+
+      <div class="QuestionAnswereBox UnactiveQuestion" id="QuestionBox6">
+        <h3 class="Question">
+          <span class="qNumber">Q6.</span> "This time we are required to print
+          the sum of marks of the students with id > 120."
+        </h3>
+        <div class="RecordSnap">
+          <img
+            src="./Images/dataSetSnap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+          <img
+            src="./Images/Question6Snap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+        </div>
+        <div class="OutpuTBox">
+          <img src="./Images/Question6OutputSnap.png" alt="" class="outPutSnap">
+        </div>
+      </div>
+
+      <div class="QuestionAnswereBox UnactiveQuestion" id="QuestionBox7">
+        <h3 class="Question">
+          <span class="qNumber">Q7.</span> "This time we are required to print
+          the total marks of the students with marks greater than 50 after a
+          grace of 15 marks has been added to those students who scored less
+          than 50."
+        </h3>
+        <div class="RecordSnap">
+          <img
+            src="./Images/dataSetSnap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+          <img
+            src="./Images/Question7Snap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+        </div>
+        <div class="OutpuTBox">
+          <img src="./Images/Question7OutputSnap.png" alt="" class="outPutSnap">
+        </div>
+      </div>
+
+      <div class="QuestionAnswereBox UnactiveQuestion" id="QuestionBox8">
+        <h3 class="Question">
+          <span class="qNumber">Q8.</span> " Create 6 objects , each object will
+          have name, class, roll no as properties. Store these objects in an
+          array of objects."
+        </h3>
+        <div class="RecordSnap">
+          <img
+            src="./Images/Question8Snap.png"
+            alt="Image Not Found"
+            class="codeSnap"
+          />
+        </div>
+        <div class="OutpuTBox">
+          <img src="./Images/Question8OutputSnap.png" alt="" class="outPutSnap">
+        </div>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
