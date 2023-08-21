@@ -103,3 +103,7 @@ questionBTN8.addEventListener("click", () => {
     QuestionBox7.classList.add("UnactiveQuestion");
     QuestionBox8.classList.remove("UnactiveQuestion");
 })
+
+
+
+
